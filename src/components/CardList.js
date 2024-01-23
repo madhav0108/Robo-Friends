@@ -3,6 +3,9 @@ import Card from './Card.js';
 
 const CardList = ({robots}) => {
     const cardArr = robots.map((user, i) => {
+        // if (true) {
+        //     throw new Error('Nooo');
+        // }
         return (
         <Card key={user.id} 
             id={robots[i].id} 
